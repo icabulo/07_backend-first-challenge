@@ -3,25 +3,6 @@ var morgan = require("morgan");
 var app = express();
 app.use(morgan("dev"));
 
-/* const result = {
-  message: "Curso encontrado satisfactoriamente",
-  top: {
-    version_top: 26,
-    students: 10,
-    names: [
-      "Felipe",
-      "Laura",
-      "Jailer",
-      "Jaime",
-      "Juan",
-      "Andrés",
-      "Nicolas",
-      "Carlos",
-      "Ivan",
-      "Diana",
-    ],
-  },
-}; */
 const topStudentsV26 = {
   version_top: 26,
   students: 10,
